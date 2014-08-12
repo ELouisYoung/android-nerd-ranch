@@ -22,5 +22,22 @@
     android:id="@+id/showAnswerButton"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="@string/show_answer_button" />
+    android:text="@string/show_answer_button"
+    android:textColor="@android:color/black"
+    android:background="#ffbab8bb"
+    android:padding="6dp"/>
+
+    <TextView
+        android:id="@+id/deviceVersionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textColorHighlight="@android:color/darker_gray"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:autoText="false"
+        android:singleLine="false"/>
 </LinearLayout>
