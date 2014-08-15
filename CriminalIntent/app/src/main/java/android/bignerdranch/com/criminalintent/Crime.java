@@ -13,10 +13,7 @@ public class Crime {
     return mId;
   }
 
-  public String getmTitle() {
-
-    return mTitle;
-  }
+  public String getmTitle() { return mTitle; }
 
   @Override
    public String toString() {
