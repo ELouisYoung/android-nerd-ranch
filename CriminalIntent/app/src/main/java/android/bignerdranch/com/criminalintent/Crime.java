@@ -18,11 +18,16 @@ public class Crime {
     return mTitle;
   }
 
+  @Override
+   public String toString() {
+    return mTitle;
+  }
+
   public void setmTitle(String mTitle) {
     this.mTitle = mTitle;
   }
 
-  public Boolean getmSolved() {
+  public Boolean isSolved() {
     return mSolved;
   }
 
