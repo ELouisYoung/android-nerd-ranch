@@ -32,10 +32,7 @@ public class Crime {
     this.mSolved = mSolved;
   }
 
-  public Date getmDate() {
-
-    return mDate;
-  }
+  public Date getmDate() { return mDate; }
 
   public void setmDate(Date mDate) {
     this.mDate = mDate;
@@ -44,6 +41,5 @@ public class Crime {
   public Crime() {
     mId = UUID.randomUUID();
     mDate = new Date();
-
   }
 }
