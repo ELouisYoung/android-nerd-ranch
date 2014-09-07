@@ -1,4 +1,4 @@
-package android.bignerdranch.com.criminalintent;
+package com.bignerdranch.android.criminalintent;
 
 import java.util.Date;
 import java.util.UUID;

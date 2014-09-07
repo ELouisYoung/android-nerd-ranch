@@ -1,4 +1,4 @@
-package android.bignerdranch.com.criminalintent;
+package com.bignerdranch.android.criminalintent;
 
 import android.content.Intent;
 import android.os.Bundle;
